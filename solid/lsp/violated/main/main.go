@@ -9,11 +9,12 @@ import (
 func main() {
 	accounts := []bankclient.Account{}
 	accounts = append(
-		accounts, saving.Init(),
+		accounts,
+		saving.Init(),
 		current.Init(),
-		// fixed.Init(), //will throw error
+		// fixed.Init(), //will throw error. we have to solve this using LSP
 	)
 
-	client := bankclient.Init()
+	client := bankclient.Init(accounts)
 	client.ProcessTransactions()
 }

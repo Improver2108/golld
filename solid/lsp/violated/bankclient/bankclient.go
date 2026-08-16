@@ -11,8 +11,8 @@ type BankClient struct {
 	accounts []Account
 }
 
-func Init() *BankClient {
-	return &BankClient{}
+func Init(accounts []Account) *BankClient {
+	return &BankClient{accounts: accounts}
 }
 
 func (b *BankClient) ProcessTransactions() {

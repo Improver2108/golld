@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/improver2108/golld/strategydesign/behaviours/talkable/normaltalk"
 	"github.com/improver2108/golld/strategydesign/behaviours/talkable/notalk"
-	"github.com/improver2108/golld/strategydesign/behaviours/walk/normalwalk"
-	"github.com/improver2108/golld/strategydesign/behaviours/walk/nowalk"
+	"github.com/improver2108/golld/strategydesign/behaviours/walkable/normalwalk"
+	"github.com/improver2108/golld/strategydesign/behaviours/walkable/nowalk"
 	"github.com/improver2108/golld/strategydesign/robot/companion"
 	"github.com/improver2108/golld/strategydesign/robot/worker"
 )

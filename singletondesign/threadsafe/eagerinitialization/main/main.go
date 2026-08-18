@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/improver2108/golld/singletondesign/threadsafe/singleton"
+	"github.com/improver2108/golld/singletondesign/threadsafe/lock/singleton"
 )
 
 func main() {
